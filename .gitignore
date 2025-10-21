@@ -1,0 +1,44 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+*.egg
+*.bak
+
+# === Virtual environments ===
+.env
+.venv
+env/
+venv/
+ENV/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+
+# === Output & temporary files ===
+output/
+logs/
+temp/
+tmp/
+cache/
+
+# === Datasets & large files ===
+data/training_input/
+data/training_output/
+data/public_test_input/
+data/samples/*.pdf
+*.zip
+*.tar.gz
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Checkpoints or models (nếu có ở Phase 2) ===
+checkpoints/
+models/
