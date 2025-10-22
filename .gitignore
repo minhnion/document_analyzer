@@ -28,8 +28,7 @@ tmp/
 cache/
 
 # === Datasets & large files ===
-data/training_input/
-data/training_output/
+data/training_data/
 data/public_test_input/
 data/samples/*.pdf
 *.zip
